@@ -1,0 +1,7 @@
+conda create -n pyNeurodesign python=2.7
+conda activate pyNeurodesign
+conda install jupyter reportlab matplotlib seaborn numpy pandas
+pip install neurodesign
+pip install pdfrw
+pip install sklearn
+pip install progressbar
